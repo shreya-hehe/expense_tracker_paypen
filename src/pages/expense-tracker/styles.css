@@ -1,0 +1,91 @@
+.expense-tracker {
+  max-width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* color: #023047; */
+  color: #fff;
+}
+
+.expense-tracker h1 {
+  font-size: 40px;
+}
+.expense-tracker button {
+  margin-left: 10px;
+  border-radius: 40px;
+}
+
+
+input {
+    height: 20px;
+    color: #222;
+  border-radius: 20px;
+ margin-left:10px;
+}
+
+form button{
+ font-weight: 700;
+height:30px;
+}
+/* .profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 200px;
+}
+.profile-photo {
+  width: 200px;
+  border-radius: 50%;
+} */
+
+/* .sign-out-button {
+  border: none;
+  margin-top: 50px;
+  max-width: 150px;
+  background: #3498db;
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+} */
+
+.sign-out-button {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  border: none;
+  margin-top: 150px;
+  max-width: 150px;
+  max-width: 150px;
+  background: #3498db;
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.sign-out-button:hover {
+  background: #3cb0fd;
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.transactions {
+  margin-left: 430px;
+  margin-top: 20px;
+  padding-left: 10px;
+  max-width: 600px;
+  max-height: 400px;
+  overflow: auto;
+  border: 3px solid #023047;
+  color: #fff;
+  border-radius: 20px;
+}
